@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<body style="margin: 0; padding: 0; background: linear-gradient(to right, #FEFAE0, #FAEDCD); font-family: Arial, sans-serif; color: #333; text-align: center;">
+
+    <!-- Header Section -->
+    <header style="background: #6C757D; color: white; padding: 40px 20px; text-align: center; font-size: 2rem; font-weight: bold;">
+        About Me
+    </header>
+
+    <!-- About Section -->
+    <section class="about" style="display: flex; justify-content: center; padding: 50px;">
+        <div class="about-content" style="max-width: 800px; background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); text-align: left;">
+            
+            <div class="text">
+                <h2 style="color: #5A189A; text-align: center;">Hi, I'm Thulashika Raveendran 👋</h2>
+                <p style="line-height: 1.6;">I am a passionate <strong>Frontend Software Engineer Intern</strong> at Detech. With a deep interest in building seamless and user-friendly web applications, I specialize in front-end development using <strong>React</strong> and <strong>Material UI</strong>. My journey as a developer has been shaped by my love for creating interactive experiences that are not only functional but also beautiful and accessible.</p>
+                
+                <h3 style="color: #D90429;">Technical Skills & Expertise</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="background: #F8F9FA; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Frontend:</strong> HTML, CSS, JavaScript (ES6+), React, Material UI, Tailwind CSS</li>
+                    <li style="background: #F8F9FA; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Backend:</strong> Node.js, Express.js, MongoDB, MySQL</li>
+                    <li style="background: #F8F9FA; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Other Skills:</strong> Git, GitHub, REST APIs, Firebase, Redux</li>
+                    <li style="background: #F8F9FA; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Programming Languages:</strong> Python, C++, Java</li>
+                    <li style="background: #F8F9FA; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Tools & Platforms:</strong> Axure RP, Figma, Postman, VS Code</li>
+                </ul>
+
+                <h3 style="color: #D90429;">My Interests</h3>
+                <p style="line-height: 1.6;">Beyond web development, I have a keen interest in <strong>Data Science</strong>, <strong>Machine Learning</strong>, and <strong>AI</strong>. My research includes predictive modeling for healthcare, specifically assessing heart disease risk in patients with iron deficiency anemia.</p>
+
+                <h3 style="color: #D90429;">My Projects</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="background: #F1FAEE; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>3D Home Visualization App:</strong> A React-based application for virtual home visualization.</li>
+                    <li style="background: #F1FAEE; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Student Results Management System:</strong> A full-stack system to manage student results efficiently.</li>
+                    <li style="background: #F1FAEE; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>ML-Based Disease Detection:</strong> A machine learning model for predicting disease risk using clinical data.</li>
+                    <li style="background: #F1FAEE; margin: 8px 0; padding: 10px; border-radius: 8px;"> <strong>Portfolio Website:</strong> A responsive personal website showcasing my work and achievements.</li>
+                </ul>
+
+                <h3 style="color: #D90429;">Let's Connect</h3>
+                <p style="line-height: 1.6;">I am always open to collaborations, new opportunities, and discussions on technology and research. Feel free to reach out!</p>
+                
+                <!-- Contact Button -->
+                <button onclick="contactMe()" style="margin: 15px 5px; padding: 12px 24px; background: linear-gradient(135deg, #5A189A, #D90429); color: white; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; transition: 0.3s;">
+                    Get in Touch
+                </button>
+
+                <!-- Back to Home Button -->
+                <button onclick="goHome()" style="margin: 15px 5px; padding: 12px 24px; background: linear-gradient(135deg, #1D3557, #457B9D); color: white; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; transition: 0.3s;">
+                    Back to Home
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #6C757D; color: white; padding: 15px; margin-top: 40px;">
+        <p>Follow me on 
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" style="color: #FFD700; text-decoration: none;">LinkedIn</a> | 
+            <a href="https://github.com/yourgithub" target="_blank" style="color: #FFD700; text-decoration: none;">GitHub</a>
+        </p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function contactMe() {
+            window.location.href = "mailto:your.email@example.com";
+        }
+
+        function goHome() {
+            window.location.href = "index.html"; // Update with your actual home page URL
+        }
+    </script>
+
+</body>
+</html>
